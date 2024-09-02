@@ -1,0 +1,42 @@
+.UpcomingEventCard-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 15px;
+    width: 341px;
+    background-color: white;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    padding: 10px 10px 20px 10px;
+    margin-left: 50px;
+  }
+  
+  .UpcomingEventCard-container-middle {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin: 0px 5px;
+  }
+  
+  .UpcomingEventCard-container-bottom{
+
+   display: flex;
+   justify-content: flex-start;
+   gap: 50px;
+ 
+  }
+  
+  .info-item {
+    display: flex;
+    align-items: center;
+    gap: 5px; /* Adjust as needed for spacing between image and text */
+  }
+
+  .info-item span{
+    font-size: 12px;
+    font-weight: 700;
+    color: gray;
+  }
+  
+
+  

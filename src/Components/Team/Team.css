@@ -1,0 +1,38 @@
+
+
+.team-container{
+    margin-top: 60px;
+    padding: 10px 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+
+}
+.team-container h1{
+    color: red;
+}
+
+
+.team-container button{
+    background-color: red;
+    padding: 10px 40px;
+    color: white;
+}
+
+.team-container .team-container-top{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap :10px;
+    color: red
+}
+
+.team-pagination {
+    margin-top: 40px; /* Move pagination further down */
+    text-align: center;
+
+
+  }
+  

@@ -1,0 +1,44 @@
+.BlogCard_container{
+    width: 426px;
+    height: 567px;
+border-right: solid 2px rgb(221, 221, 221);
+border-left:  solid 2px rgb(221, 221, 221);
+border-bottom:  solid 2px rgb(221, 221, 221);
+border-radius: 10px;
+}
+
+.BlogCard_container-description{
+    padding: 20px 40px 40px 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    
+    
+}
+
+.vertical-line {
+    width: 2px; /* Adjust width for thickness */
+    background-color: black; /* Change color as needed */
+    height: 15px; /* Adjust height as needed */
+  }
+
+  .BlogCard-top{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 20px;
+    margin-top: 10px;
+
+  }
+
+  .BlogCard-top-item{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 7px;
+  }
+
+  .BlogCard-bottom-item{
+    display: flex;
+   
+  }

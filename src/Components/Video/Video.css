@@ -1,0 +1,63 @@
+
+.video-container{
+    height: 700px;
+
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-end;
+    margin: auto;
+    position: relative;
+}
+
+
+.video-container-lower{
+    background-color: rgb(231, 68, 68);
+    height: 440px;
+    width: 100%;
+
+}
+
+.video-player{
+top: 0;
+    position: absolute;
+    right: 3.5%;
+
+}
+
+.lowers-allcard{
+  margin-top: 230px;
+display: flex;
+justify-content: center;
+gap: 20px;
+align-items: center;
+ 
+
+}
+
+.single-card{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(255, 255, 255);
+    padding: 30px 10px;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+  
+}
+.single-card h2{
+    color: red;
+    font-weight: 1200;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.single-card h5{
+   font-family: Arial, Helvetica, sans-serif;
+}
+
+.single-card .last-child{
+    width: 80%;
+    text-align: center;
+}

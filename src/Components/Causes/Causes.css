@@ -1,0 +1,64 @@
+.Causes-Container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 60px;
+    margin-bottom: 40px;
+    padding: 20px;
+ 
+
+    gap: 40px;
+  }
+  
+  .Causes-Container h1 {
+    font-size: 2rem;
+    text-align: center;
+   
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  .Causes-Container h1 span {
+    color: red;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  .swiper {
+
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+    max-width: 1400px;
+ 
+    padding-bottom: 20px; /* Optional: Add padding for additional spacing around swiper */
+  }
+  
+  /* Adjust the pagination bullets position */
+  .pagination {
+    margin-top: 40px; /* Move pagination further down */
+    text-align: center;
+
+
+  }
+  
+
+  
+
+  .Causes-Container button{
+    background-color: red;
+    color: #ffffff;
+    padding: 10px 40px;
+  }
+    .causes-topp{
+
+
+  }
+
+  .causes-topp hr {
+    width: 40px;
+   height: 3px;
+   background-color: red;
+   border: none;
+  }
+  

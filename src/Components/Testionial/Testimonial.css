@@ -1,0 +1,22 @@
+
+
+.testimonial-swiper {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+     max-width: 1400px;
+
+ 
+     padding-bottom: 20px; /* Optional: Add padding for additional spacing around swiper */
+   }
+   
+
+.testimonial-pagination {
+    margin-top: 40px; /* Move pagination further down */
+    text-align: center;
+
+
+  }
+  

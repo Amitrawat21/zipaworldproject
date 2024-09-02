@@ -1,0 +1,64 @@
+
+
+.Card-container{
+    width: 288px;
+    height: 210px;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.2);
+    padding:  1px 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    background-color: rgb(255, 255, 255);
+    gap: 7px;
+
+
+    
+}
+
+.Card-container h2{
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.Card-container h5{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #a3a3a3;
+    font-size: 13.9px;
+
+}
+
+
+.Card-container .feed{
+    width: 64px;
+    height: 64px;
+   position: relative;
+    left: -6%;
+    top: 5%;
+   
+   
+}
+
+.Card-container .readmore{
+    display: flex;
+    justify-content:  flex-start;
+    align-items: center;
+    gap: 10px;
+    margin-top: 10px;
+}
+.readmore .arrow-image{
+    width: 30px;
+    height: 30px;
+    border-radius: 20px;
+    position: relative;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.1);
+
+
+  
+}
+
+
+
+.arrow-image img{
+    position: absolute;
+top: 25%;
+left: 35%;
+}

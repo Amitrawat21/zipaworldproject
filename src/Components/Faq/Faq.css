@@ -1,0 +1,122 @@
+.faq-container {
+  margin-top: 40px;
+  display: flex;
+  padding: 20px 50px;
+}
+
+.faq-wrapper-left {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  flex: 1;
+}
+.faq-wrapper-left h1 {
+  font-size: 48px;
+  width: 633px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.faq-wrapper-left h4 {
+  font-size: 20px;
+  width: 458px;
+  color: rgb(133, 133, 133);
+  font-family: Arial, Helvetica, sans-serif;
+}
+.faq-wrapper-left h3 {
+  font-size: 23px;
+  width: 141px;
+  color: red;
+}
+
+.all-fos-card {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  margin-top: 30px;
+}
+
+.fos-card {
+  width: 606px;
+  height: 51px;
+  display: flex;
+  padding: 15px 30px 15px 15px;
+  justify-content: space-between;
+  align-items: center;
+
+  box-shadow: 0 0 30px rgba(0, 0, 0, 0.1);
+}
+
+.fos-card h5 {
+  font-size: 18px;
+}
+
+.fos-card img {
+  padding: 10px 10px;
+
+  border-radius: 15px;
+  background-color: pink;
+}
+
+.fos-large-card {
+  display: flex;
+  flex-direction: column;
+  width: 606px;
+  gap: 20px;
+  height: 141px;
+  padding: 15px 30px 15px 15px;
+  background-color: red;
+  color: white;
+  box-shadow: 0 0 30px rgba(0, 0, 0, 0.1);
+}
+.fos-large-card h4 {
+  width: 375px;
+  height: 55px;
+  font-size: 17px;
+  color: white;
+}
+
+.fos-card-large {
+  display: flex;
+
+  justify-content: space-between;
+  align-items: center;
+}
+
+.fos-card-large h5 {
+  font-size: 18px;
+}
+.fos-card-large img {
+  padding: 14px 10px;
+
+  border-radius: 15px;
+  background-color: pink;
+}
+
+.faq-wrapper-right{
+    display: flex;
+    flex: 1;
+
+    position: relative;
+}
+.faq-wrapper-right .maskgroup{
+    position: absolute;
+    top: 10%;
+    left: 14%;
+
+}
+
+.faq-wrapper-right .girl{
+    position: absolute;
+    bottom: 1%;
+    left: 3%;
+
+}
+
+.faq-wrapper-right .grandpa{
+    position: absolute;
+    right: 5%;
+    width: 244px;
+    height: 288px;
+
+}
+
+

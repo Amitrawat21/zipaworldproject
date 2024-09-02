@@ -1,0 +1,51 @@
+
+
+.TeamMadeCard-container{
+ display: flex;
+ flex-direction: column;
+ position: relative;
+ justify-content: flex-end;
+ align-items: center;
+
+    width: 306px;
+    height: 527px;
+}
+
+.TeamMadeCard-container img{
+    position: absolute;
+    top: 0;
+    
+  
+}
+
+.TeamMadeCard-container-wrapper{
+    height:382px;
+  width: 100%;
+    background-color: rgb(220, 52, 52);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding: 20px;
+
+}
+
+.null{
+    height: 268px;
+    width: 98%;background-color: rgb(255, 255, 255);
+
+}
+.TeamMadeCard-bottom{
+    color: white;
+
+}
+.TeamMadeCard-bottom h2{
+    font-size: 27px;
+   font-family: Arial, Helvetica, sans-serif;
+}
+.TeamMadeCard-bottom h4{
+    font-size: 14px;
+    font-weight: 100;
+ font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}

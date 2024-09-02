@@ -1,0 +1,163 @@
+.about-container {
+  display: flex;
+  padding: 30px 50px;
+  position: relative;
+  align-items: center;
+
+
+}
+
+.about-conatiner-left {
+  display: flex;
+  flex-direction: column;
+  gap: 45px;
+
+  flex: 0.7;
+}
+
+.about-conatiner-left h1 {
+  font-size: 50px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.about-conatiner-left h2 {
+  color: #808080;
+  font-family: Arial, Helvetica, sans-serif;
+
+  font-size: 20px;
+  text-align: justify;
+}
+.aboutus h2 {
+  font-size: 27px;
+  color: red;
+}
+.aboutus hr {
+  width: 50px;
+ height: 5px;
+ background-color: red;
+ border: none;
+}
+
+
+.about-conatiner-left button {
+  background-color: red;
+  color: white;
+  width: 179px;
+}
+
+.about-conatiner-right {
+  flex: 1;
+  display: flex;
+  height: 630px;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+margin-top: 10px;
+
+ 
+
+  overflow: hidden; /* Prevents circles from overflowing out of the container */
+}
+
+.circle-container {
+  position: relative;
+  display: flex;
+  padding: 30px;
+  justify-content: flex-start;
+  margin-right: 220px;
+  margin-bottom: 65px;
+
+  align-items: center;
+}
+
+.circle {
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  position: absolute; /* Stack circles on top of each other */
+}
+
+.circle-one {
+  width: 520px;
+  height: 520px;
+  border: 1px solid rgba(255, 0, 0, 0.3); /* Outer circle border */
+}
+
+.circle-two {
+  width: 400px;
+  height: 400px;
+  border: 1px solid rgba(255, 0, 0, 0.5); /* Middle circle border */
+}
+
+.circle-three {
+  width: 300px;
+  height: 300px;
+  border: 1px solid rgba(255, 0, 0, 0.7); /* Inner circle border */
+}
+
+.ellipse2{
+    position: absolute;
+    bottom:8%;
+    left: 26%;
+    width: 150px;
+    height: 150px;
+}
+.ellipse3{
+    position: absolute;
+    bottom:38%;
+    left: 24%;
+  
+}
+
+.bottom-news{
+    width: 300px;
+background-color: #ffffff;
+    padding: 12px 50px;
+    bottom: 12%;
+    left: 50%;
+    text-align: center;
+    border-radius: 50px;
+    position: absolute;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.2);
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.top-news{
+    width: 300px;
+background-color: white;
+    padding: 12px 50px;
+  top: 14%;
+  left: 16%;
+    text-align: center;
+    border-radius: 50px;
+    position: absolute;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.1);
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.donate{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    top: 15%;
+    left: 63%;
+
+}
+
+.Volunteer{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    bottom: 25%;
+    left: 63%;
+
+}
+

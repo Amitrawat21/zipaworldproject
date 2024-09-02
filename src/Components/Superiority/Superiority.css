@@ -1,0 +1,29 @@
+
+.superiority-container{
+    display: flex;
+justify-content: space-between;
+   align-items: center;
+   background-color:#ffc0cb 
+   ;
+   padding: 20px 100px;
+}
+
+.superiority-card{
+   background-color: white;
+    display: flex;
+    width: 201px;
+    height: 85px;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+  
+  
+    border-radius: 5px;
+}
+
+.superiority-card h4{
+    width: 115px;
+   
+    font-size: 19px;
+}
+

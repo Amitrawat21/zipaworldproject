@@ -1,0 +1,74 @@
+
+
+.CausesCard-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 25px;
+    width: 401px;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    padding: 10px 20px;
+    height: 503px;
+    margin: 40px;
+   
+}
+
+.CausesCard-container-middle{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin: 0px 5px;
+   
+
+}
+
+.CausesCard-container-middle h6{
+    width: 287px;
+    color: gray;
+  
+
+}
+
+
+.CausesCard-container-bottom{
+    display: flex;
+    margin: 0px 5px;
+    justify-content: space-between;
+ 
+}
+
+.CausesCard-container button{
+width: 379px;
+align-self: center;
+margin: auto;
+background-color: red;
+color: white;
+margin-bottom: 20px;
+
+
+}
+
+.progresbar{
+    display: flex;
+    justify-content: space-between;
+}
+.progresbar .slider{
+    width: 300px;
+    color: red;
+    background-color: green;
+}
+
+.progresbar .slider::-moz-range-thumb{
+    background-color: red;
+    color:  red;
+    height: 20px;
+    width: 10px;
+    border-radius: 50%;
+}
+
+
+.progresbar .slider::-moz-progress-bar{
+    background-color: red;
+}
+

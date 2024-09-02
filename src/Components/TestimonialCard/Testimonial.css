@@ -1,0 +1,23 @@
+
+.TestimonialCard-container{
+    width: 406px;
+    height: 330px;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.2);
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin: 20px 4px;
+    border-radius: 10px;
+}
+
+.allStars{
+    display: flex;
+    gap: 1px;
+}
+
+.TestimonialCard-description{
+    display: flex;
+    align-items: center;
+    gap: 13px;
+}

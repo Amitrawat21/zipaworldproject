@@ -1,0 +1,56 @@
+
+
+.UpcomingEvent-container{
+
+    height: 640px;
+    display: flex;
+    gap:60px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.UpcomingEvent-container h1 {
+color: white;
+font-family: Arial, Helvetica, sans-serif;
+margin-top: 50px;
+}
+.UpcomingEvent-container span{
+  color: rgb(230, 67, 67);
+  font-family: Arial, Helvetica, sans-serif;
+  }
+  
+
+
+.UpcomingEvent-swiper {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+     max-width: 1400px;
+  
+     padding-bottom: 20px; /* Optional: Add padding for additional spacing around swiper */
+   }
+   
+   /* Adjust the pagination bullets position */
+   .upcomingEvent-pagination {
+     margin-top: 40px; /* Move pagination further down */
+     text-align: center;
+ 
+ 
+   }
+   
+   .UpcomingEvent-swiper  button{
+    background-color: red;
+    color: #ffffff;
+    background-color: red;
+    color: #ffffff;
+    padding: 10px 40px;
+    margin-top: 40px;
+    
+  }
+
+
+   
+ 
+   
